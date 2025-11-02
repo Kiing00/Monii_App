@@ -1,7 +1,7 @@
 {
-  "version": "1.9.9",
+  "version": "1.9.10",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.9/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.10/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
     "Removing the Transaction Screen and replacing with Calendar",
