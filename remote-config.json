@@ -1,10 +1,11 @@
 {
-  "version": "1.9.10",
+  "version": "1.9.11",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.10/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.11/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
-    "Removing the Transaction Screen and replacing with Calendar",
+    "Swipe to view other Chart in Analytics",
+    "Adding Search in Account Details",
     "You can now view all Transaction in more informative. Selecting item now can auto sum, slide to edit, view or delete items",
     "Minor Changes and Bug Fix",
     "Your Opinion and Suggestion is highly Appreciated!",
