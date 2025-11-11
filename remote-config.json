@@ -1,13 +1,11 @@
 {
-  "version": "1.9.12",
+  "version": "1.9.13",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.12/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.13/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
-    "Swipe to view other Chart in Analytics",
-    "Adding Search in Account Details",
-    "You can now view all Transaction in more informative. Selecting item now can auto sum, slide to edit, view or delete items",
-    "Minor Changes and Bug Fix",
+    "Introducing the Dark Mode",
+    "You can try it on Profile Tab",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
   ]
