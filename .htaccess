@@ -1,0 +1,48 @@
+# Security Headers for Apache Web Servers
+# Add these headers to protect your website from common attacks
+
+# Prevent clickjacking attacks
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "DENY"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+    
+    # Content Security Policy (adjust as needed)
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.tailwindcss.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';"
+    
+    # HTTPS/HSTS (enforce HTTPS - uncomment when HTTPS is ready)
+    # Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+</IfModule>
+
+# Disable directory listing
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+
+# Remove server signature
+ServerTokens Prod
+ServerSignature Off
+
+# Protect sensitive files
+<FilesMatch "^\.">
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "\.(env|json|lock|md|yml|yaml)$">
+    Deny from all
+</FilesMatch>
+
+# Enable GZIP compression for better performance and security
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Set correct MIME types
+<IfModule mod_mime.c>
+    AddType application/json .json
+    AddType text/html .html
+    AddType application/javascript .js
+    AddType text/css .css
+</IfModule>
