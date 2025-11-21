@@ -1,11 +1,12 @@
 {
-  "version": "1.9.13",
+  "version": "1.9.14",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.13/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.14/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
     "Introducing the Dark Mode",
-    "You can try it on Profile Tab",
+    "Bug Fix",
+    "Minor changes on Transactions",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
   ]
