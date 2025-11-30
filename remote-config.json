@@ -1,12 +1,12 @@
 {
-  "version": "1.9.16",
+  "version": "1.9.17",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.16/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.17/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
     "Smart Insight, is now even more Smarter",
     "Bug Fix",
-    "Adding Import and Export Option",
+    "OTA update Support",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
   ]
