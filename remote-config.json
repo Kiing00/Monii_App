@@ -1,11 +1,12 @@
 {
-  "version": "1.9.20",
+  "version": "1.10.1",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.9.20/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.10.1/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
-    "Smart Insight, is now even more Smarter",
-    "Bug Fix",
+    "Bug Fix", 
+    "Adding Multiple Selection in Account",
+    "Adding Multiple of date in Calendar",
     "OTA update Support",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
