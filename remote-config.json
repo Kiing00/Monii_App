@@ -1,13 +1,13 @@
 {
-  "version": "1.10.1",
+  "version": "1.10.2",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.10.1/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.10.2/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
     "Bug Fix", 
     "Adding Multiple Selection in Account",
     "Adding Multiple date Selection in Calendar",
-    "OTA update Support",
+    "OTA update Support and Old version Cleaning to save Space",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
   ]
