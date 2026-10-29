@@ -1,10 +1,11 @@
 {
-  "version": "1.10.7",
+  "version": "1.10.8",
   "min_version": "1.0.0",
-  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.10.7/app-release.apk",
+  "update_url": "https://github.com/Kiing00/OTA/releases/download/v.1.10.8/app-release.apk",
   "changelog": [
     "Welcome to Monii App",
     "Bug Fixes and Improvements",
+    "Revamped UI and UX",
     "Your Opinion and Suggestion is highly Appreciated!",
     "This release is non-production ready"
   ]
